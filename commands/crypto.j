@@ -1,7 +1,7 @@
 const { SlashCommandBuilder } = require('@discordjs/builders');
 const { MessageActionRow, MessageButton, MessageEmbed } = require('discord.js');
 const axios = require('axios');
-const QuickChart = require('quickchart-js');
+//const QuickChart = require('quickchart-js');
 
 module.exports = {
     data: new SlashCommandBuilder()
